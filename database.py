@@ -3,7 +3,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.exc import ProgrammingError
 
-SQLALCHEMY_DATABASE_URL = "postgresql://Qasim-hub:19UPGOuisfqy@ep-hidden-haze-06137072.us-east-2.aws.neon.tech/neondb?sslmode=require"
+SQLALCHEMY_DATABASE_URL = "database-url"
 
 engine = create_engine(SQLALCHEMY_DATABASE_URL , pool_pre_ping=True)
 
